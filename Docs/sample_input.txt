@@ -1,0 +1,16 @@
+#How to create entires
+#path=/roles
+#allowed-origins=* or comma-separated list of addresses
+#allowed-headers=comma-separated list of headers
+#allowed-methods=get,options or just *
+
+path=/posts
+allowed-origins=*
+allowed-headers=Content-Type,x-requested-with,Access-Control-Allow-Headers,Access-Control-Allow-Origin,Access-Control-Allow-Methods
+allowed-methods=get,options
+
+path=/categories
+allowed-origins=mydomain.com,myhost.com
+allowed-headers=Content-Type,x-requested-with,Access-Control-Allow-Headers,Access-Control-Allow-Origin,Access-Control-Allow-Methods
+allowed-methods=*
+
